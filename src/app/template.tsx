@@ -1,7 +1,7 @@
 // https://nextjs.org/docs/app/api-reference/file-conventions/template
 
-import InnerTransition from '@/components/transition/InnerTransition'
+import StairsTransition from '@/components/transition/StairsTransition'
 
 export default function Template({ children }: { children: React.ReactNode }) {
-  return <InnerTransition>{children}</InnerTransition>
+  return <StairsTransition>{children}</StairsTransition>
 }
