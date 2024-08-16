@@ -2,7 +2,7 @@ const ContactPage: React.FC = () => {
   return (
     <section className="py-12">
       <div className="container">
-        <h2 className="mb-12 text-3xl font-bold">Contact Us</h2>
+        <h1 className="mb-12 text-3xl font-bold">Contact Me</h1>
         <div className="flex gap-12">
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, sit
