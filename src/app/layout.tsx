@@ -1,8 +1,7 @@
 import type { Metadata } from 'next'
 import { Fraunces } from 'next/font/google'
 import './globals.css'
-import Header from '@/components/Header'
-import { cn } from '@/utils/cn'
+import PageAnimationPresence from '../components/PageAnimationPresence'
 
 const fraunces = Fraunces({ subsets: ['latin'] })
 
@@ -18,9 +17,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={cn('px-8', fraunces.className)}>
-        <Header />
-        <main>{children}</main>
+      <body className={fraunces.className}>
+        <PageAnimationPresence>{children}</PageAnimationPresence>
       </body>
     </html>
   )
