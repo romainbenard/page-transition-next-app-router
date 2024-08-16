@@ -16,11 +16,7 @@ function FrozenRouter({ children }: PropsWithChildren) {
   )
 }
 
-export default function PageAnimationPresence({
-  children,
-}: {
-  children: React.ReactNode
-}) {
+export default function PageAnimationPresence({ children }: PropsWithChildren) {
   const pathname = usePathname()
 
   return (
