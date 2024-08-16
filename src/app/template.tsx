@@ -1,7 +1,7 @@
 // https://nextjs.org/docs/app/api-reference/file-conventions/template
 
-import PageTransition from '@/components/animation/PageTransition'
+import InnerTransition from '@/components/transition/InnerTransition'
 
 export default function Template({ children }: { children: React.ReactNode }) {
-  return <PageTransition>{children}</PageTransition>
+  return <InnerTransition>{children}</InnerTransition>
 }
